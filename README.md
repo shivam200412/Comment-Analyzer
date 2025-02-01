@@ -17,55 +17,57 @@ A web application that analyzes the sentiment of YouTube video comments and gene
 
 
 ## **Overview**
+
 The YouTube Comment Analyzer is a Flask-based web application that allows users to input a YouTube video URL and analyze the sentiment of its comments. The application:
--Fetches comments using the YouTube Data API.
--Performs sentiment analysis using TextBlob.
--Generates a word cloud to visualize the most frequent words in the comments.
+- Fetches comments using the YouTube Data API.
+- Performs sentiment analysis using TextBlob.
+- Generates a word cloud to visualize the most frequent words in the comments.
 This project is ideal for understanding user engagement, identifying trends, and gaining insights from YouTube comments.
+
 
 ## **Features**
 
 **Sentiment Analysis:**
--Categorizes comments as Positive, Negative, or Neutral.
--Displays the distribution of sentiments in a clean, card-based layout.
+- Categorizes comments as Positive, Negative, or Neutral.
+- Displays the distribution of sentiments in a clean, card-based layout.
 
 **Word Cloud Generation:**
--Generates a word cloud from the comments for quick visualization of frequent words.
+- Generates a word cloud from the comments for quick visualization of frequent words.
 
 **User-Friendly Interface:**
--Simple and intuitive design powered by Bootstrap.
--Responsive layout that works on all devices.
+- Simple and intuitive design powered by Bootstrap.
+- Responsive layout that works on all devices.
 
 **YouTube Data API Integration:**
--Fetches comments directly from YouTube videos.
+- Fetches comments directly from YouTube videos.
 
 
 ## **Technologies Used**
 
 **Backend:**
--Python
--Flask (Web Framework)
--TextBlob (Sentiment Analysis)
--WordCloud (Word Cloud Generation)
--Matplotlib (Plotting)
--YouTube Data API (Comment Fetching)
+- Python
+- Flask (Web Framework)
+- TextBlob (Sentiment Analysis)
+- WordCloud (Word Cloud Generation)
+- Matplotlib (Plotting)
+- YouTube Data API (Comment Fetching)
 
 **Frontend:**
--HTML, CSS, JavaScript
--Bootstrap (Styling)
+- HTML, CSS, JavaScript
+- Bootstrap (Styling)
 
 **Deployment:**
--Heroku, Vercel, or any Flask-compatible hosting service.
+- Heroku, Vercel, or any Flask-compatible hosting service.
 
 
 **Usage:**
 
--Enter a YouTube Video URL:
--On the home page, paste the URL of the YouTube video you want to analyze.
--View Sentiment Analysis:
--The application will display the sentiment distribution (Positive, Negative, Neutral) in a card-based layout.
--Explore the Word Cloud:
--A word cloud will be generated to visualize the most frequent words in the comments.
+- Enter a YouTube Video URL:
+- On the home page, paste the URL of the YouTube video you want to analyze.
+- View Sentiment Analysis:
+- The application will display the sentiment distribution (Positive, Negative, Neutral) in a card-based layout.
+- Explore the Word Cloud:
+- A word cloud will be generated to visualize the most frequent words in the comments.
 
 **API Key Setup:**
 
