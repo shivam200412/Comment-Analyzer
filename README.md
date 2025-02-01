@@ -12,8 +12,7 @@ A web application that analyzes the sentiment of YouTube video comments and gene
 3. Technologies Used
 4. Usage
 5. API Key Setup
-6. Contributing
-7. License
+6. License
 
 
 ## **Overview**
@@ -22,6 +21,7 @@ The YouTube Comment Analyzer is a Flask-based web application that allows users 
 - Fetches comments using the YouTube Data API.
 - Performs sentiment analysis using TextBlob.
 - Generates a word cloud to visualize the most frequent words in the comments.
+  
 This project is ideal for understanding user engagement, identifying trends, and gaining insights from YouTube comments.
 
 
