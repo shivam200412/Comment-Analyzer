@@ -60,7 +60,7 @@ This project is ideal for understanding user engagement, identifying trends, and
 - Heroku, Vercel, or any Flask-compatible hosting service.
 
 
-**Usage:**
+## **Usage:**
 
 - Enter a YouTube Video URL:
 - On the home page, paste the URL of the YouTube video you want to analyze.
@@ -69,33 +69,26 @@ This project is ideal for understanding user engagement, identifying trends, and
 - Explore the Word Cloud:
 - A word cloud will be generated to visualize the most frequent words in the comments.
 
-**API Key Setup:**
+## **API Key Setup:**
 
-To fetch comments from YouTube, you need a YouTube Data API key. Here’s how to get one:
-Go to the Google Cloud Console.
-Create a new project.
-Enable the YouTube Data API v3 for your project.
-Generate an API key under Credentials.
-Add the API key to the .env file as described in the Installation section.
+1. To fetch comments from YouTube, you need a YouTube Data API key. Here’s how to get one:
+2. Go to the Google Cloud Console.
+3. Create a new project.
+4. Enable the YouTube Data API v3 for your project.
+5. Generate an API key under Credentials.
+6. Add the API key to the .env file as described in the Installation section.
 
-**Contributing:**
 
-Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
-Fork the repository.
-Create a new branch (git checkout -b feature/YourFeatureName).
-Commit your changes (git commit -m 'Add some feature').
-Push to the branch (git push origin feature/YourFeatureName).
-Open a pull request.
+## **License:**
 
-**License:**
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-**Acknowledgments:**
+
+## **Acknowledgments:**
 
 YouTube Data API for providing access to YouTube comments.
 TextBlob for sentiment analysis.
 WordCloud for generating word clouds.
 Bootstrap for the frontend design.
-
 
 Enjoy analyzing YouTube comments! 🚀
