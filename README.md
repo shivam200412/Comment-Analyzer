@@ -7,13 +7,14 @@ A web application that analyzes the sentiment of YouTube video comments and gene
 
 ## **Table of Contents**
 
-1.Overview
-2.Features
-3.Technologies Used
-4.Usage
-5.API Key Setup
-6.Contributing
-7.License
+1. Overview
+2. Features
+3. Technologies Used
+4. Usage
+5. API Key Setup
+6. Contributing
+7. License
+
 
 ## **Overview**
 The YouTube Comment Analyzer is a Flask-based web application that allows users to input a YouTube video URL and analyze the sentiment of its comments. The application:
